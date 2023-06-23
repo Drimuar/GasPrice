@@ -30,19 +30,19 @@ class MainActivity : AppCompatActivity() {
                 num = editTextNumber.text.toString().toInt()
                 sum = num * gas92
                 findViewById<TextView>(R.id.textView4).apply {
-                    text = sum.toString() + " руб."
+                    text = "$sum руб."
                 }
             } else if (radioButton2.isChecked) {
                 num = editTextNumber.text.toString().toInt()
                 sum = num * gas95
                 findViewById<TextView>(R.id.textView4).apply {
-                    text = sum.toString() + " руб."
+                    text = "$sum руб."
                 }
             } else if (radioButton3.isChecked){
                 num = editTextNumber.text.toString().toInt()
                 sum = num * gas98
                 findViewById<TextView>(R.id.textView4).apply {
-                    text = sum.toString() + " руб."
+                    text = "$sum руб."
                 }
             }
         }
