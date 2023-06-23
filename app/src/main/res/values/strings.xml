@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GasPrice</string>
+    <string name="_92_gas">92</string>
+    <string name="_50_price">50 руб.</string>
+    <string name="_95_gas">95</string>
+    <string name="_98_gas">98</string>
+    <string name="_55_price">55 руб.</string>
+    <string name="_57_price">57 руб.</string>
+</resources>
